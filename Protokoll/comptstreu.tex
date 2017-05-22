@@ -1,0 +1,95 @@
+% Dokumentenklasse
+\documentclass{article}
+
+% deutsche Silbentrennung
+\usepackage[ngerman]{babel}
+
+% Tabellenpaket
+\usepackage{tabularx}
+
+% Umlaute
+\usepackage[utf8]{inputenc}
+
+% Fließobjekte
+\usepackage{float}
+
+% Mathepaket
+\usepackage{amsmath}
+
+% Bilder
+\usepackage{graphicx}
+
+% Für schräge Bruchstriche
+\usepackage{nicefrac}
+
+% Für Bilderformatierung
+\usepackage{float}
+
+% PDFs anhängen
+\usepackage{pdfpages}
+
+% Hyperref
+\usepackage{hyperref}
+
+% Literaturverzeichnis
+\usepackage{cite}
+
+% Latexbilder
+\usepackage{tikz}
+
+\bibliographystyle{unsrt} % <- Choose a style. Your document class may do this for you.
+\bibliography{my-biblio}
+
+
+\begin{document}
+
+\begin{titlepage}
+\centering
+Protokoll zum Fortgeschrittenenpraktikumsversuch\\[2cm]\Huge
+\vfill
+\Huge
+Zeitkorrelierte Einzelphotonenzählung\\[2cm]\Large
+WS 2016/2017 \\
+\vfill
+\normalsize
+\begin{tabular}{lcr}
+Verfasser 1:   &   & Christoph Egerland       \\
+Verfasser 2:   &   & Max Pfeifer              \\
+Versuchsdatum: &   & 6.12.2016                \\
+Versuchsplatz: &   & NEW15 2'106              \\
+Betreuer:      &   & Dr. Steffen Hackbarth    \\
+\end{tabular}
+\end{titlepage}
+
+\begin{center}
+  \textbf{Abstract}
+\end{center}
+Hier steht der Abstract
+
+\tableofcontents
+\newpage
+
+
+\section{Materialien und Methoden}
+\subsection{Versuchsaufbau}
+\subsection{Versuchsmethode}
+
+\section{Auswertung und Diskussion}
+
+\section{Schlussfolgerungen}
+
+\section{Anhang}
+
+
+
+\section{Literatur}
+
+\begingroup
+\renewcommand{\section}[2]{}
+\begin{thebibliography}{20}
+        \bibitem{Hackbarth} Dr. Steffen Hackbarth: \textit{Versuchsskript: Zeitkorrelierte Einzelphotonenmessung}
+        \bibitem{Roeder} Röder et al.: \textit{Photophysical properties of pheophorbide a in solution and in model membrane systems}
+\end{thebibliography}
+\endgroup
+
+\end{document}
