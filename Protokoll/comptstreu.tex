@@ -1,95 +1,220 @@
-% Dokumentenklasse
-\documentclass{article}
-
-% deutsche Silbentrennung
-\usepackage[ngerman]{babel}
-
-% Tabellenpaket
-\usepackage{tabularx}
-
-% Umlaute
-\usepackage[utf8]{inputenc}
-
-% Fließobjekte
-\usepackage{float}
-
-% Mathepaket
-\usepackage{amsmath}
-
-% Bilder
-\usepackage{graphicx}
-
-% Für schräge Bruchstriche
-\usepackage{nicefrac}
-
-% Für Bilderformatierung
-\usepackage{float}
-
-% PDFs anhängen
-\usepackage{pdfpages}
-
-% Hyperref
-\usepackage{hyperref}
-
-% Literaturverzeichnis
-\usepackage{cite}
-
-% Latexbilder
-\usepackage{tikz}
-
-\bibliographystyle{unsrt} % <- Choose a style. Your document class may do this for you.
-\bibliography{my-biblio}
+\documentclass[aps,twocolumn,secnumarabic,nobalancelastpage,amsmath,amssymb,
+nofootinbib,superscriptaddress]{revtex4-1}
 
 
+\usepackage{graphics}       % standard graphics specifications
+\usepackage{graphicx}       % alternative graphics specifications
+\usepackage{longtable}      % helps with long table options
+\usepackage{url}            % for on-line citations
+\usepackage{bm}             % special 'bold-math' package
+\usepackage[ngerman]{babel} % deutsche Siblentrennung
+\usepackage[utf8]{inputenc} % Umlaute
+
+\def\andname{\hspace*{-0.5em},} % definiert die Trennung zwischen 2 Autoren neu
+
+% Titelseite
 \begin{document}
+\title{Titel des Praktikums}
+\author         {Ch. Egerland}
+\email[Email: ]{egerlanc@physik.hu-berlin.de}
+\author         {M. Pfeifer}
+\email[Email: ]{mpfeifer@physik.hu-berlin.de}
+\affiliation    {Humboldt-Universität zu Berlin, Institut für Physik}
+\date[Abgabedatum: ]{XX.XX.XXXX}
 
-\begin{titlepage}
-\centering
-Protokoll zum Fortgeschrittenenpraktikumsversuch\\[2cm]\Huge
-\vfill
-\Huge
-Zeitkorrelierte Einzelphotonenzählung\\[2cm]\Large
-WS 2016/2017 \\
-\vfill
-\normalsize
-\begin{tabular}{lcr}
-Verfasser 1:   &   & Christoph Egerland       \\
-Verfasser 2:   &   & Max Pfeifer              \\
-Versuchsdatum: &   & 6.12.2016                \\
-Versuchsplatz: &   & NEW15 2'106              \\
-Betreuer:      &   & Dr. Steffen Hackbarth    \\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+Hier steht der Abstract, also einmal kurz beschreiben, was wir gemacht haben
+\end{abstract}
+
+
+\maketitle
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Wie wir in Zukunft Paper schreiben}
+
+
+Wir untergliedern in:
+\begin{enumerate}
+\item Theorie: kleine Zusammenfassung der Theorie, die hinter'm Experiment steht
+
+\item Experiment: Aufbau, Funktionsweise
+
+\item Daten und Analyse: Auswertung
+
+\item Schlussfolgerung:
+
+\end{enumerate}
+
+{\bf So und nicht anders!}
+\\
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id facilisis ligula,
+a ultrices nibh. Nullam suscipit tellus nec mauris fermentum, ornare luctus neque
+tincidunt. Aenean commodo tincidunt varius. Phasellus faucibus metus non erat
+consectetur bibendum. Duis et luctus risus, at egestas justo. Nunc eleifend lacus
+ac laoreet scelerisque. Aenean cursus dignissim magna in ultrices. In eget nisl
+quis nisi.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Theorie}
+
+Hier mal noch Beispiele wie man Gleichungen richtig referenziert, siehe
+Gleichung.~\ref{eq:first-equation} :
+\begin{equation}
+   \chi_+(p)\alt{\bf [}2|{\bf p}|(|{\bf p}|+p_z){\bf ]}^{-1/2}
+   \left(
+   \begin{array}{c}
+      |{\bf p}|+p_z\\
+      px+ip_y
+   \end{array}\right)
+   \label{eq:first-equation}
+\end{equation}
+
+
+Oder auch in der Zeile: $\vec{\psi_1} = |\psi_1\rangle \equiv c_0|0\rangle +
+c_1|1\rangle \chi^2 \approx
+\prod\sum\left[\frac{y_i-f(x_i)}{\sigma_i}\right]^2 |\psi_1\rangle
+\sim \lim_{\mu \rightarrow \infty}p(x;\mu) \geq \frac{1}{\sqrt{2 \pi
+\mu}} e^{-(x-\mu)^2 / 2\mu}P(x) \ll \int_{-\infty}^x p(x')dx'a
+\times b \pm c \Rightarrow \nabla \hbar$.
+
+Manchmal auch über mehr als eine Zeile, siehe Equation~\ref{eq:multilineeq}:
+\begin{eqnarray}
+  \sum \vert M^{\text{viol}}_g \vert ^2
+   &=&  g^{2n-4}_S(Q^2)~N^{n-2} (N^2-1)
+\nonumber
+\\
+   &&   \times \left( \sum_{i<j}\right) \sum_{\text{perm}}
+            \frac{1}{S_{12}}  \frac{1}{S_{12}} \sum_\tau c^f_\tau
+\,.
+\label{eq:multilineeq}
+\end{eqnarray}
+
+Natürlich gibts auch die guten alten subequations wie (\ref{subeq:1}) und
+(\ref{subeq:2}):
+\begin{subequations}
+\label{eq:whole}
+\begin{equation}
+  \left\{
+      abc123456abcdef\alpha\beta\gamma\delta1234556\alpha\beta
+       \frac{1\sum^{a}_{b}}{A^2}
+  \right\}
+%
+\,\label{subeq:1}
+\end{equation}
+\begin{eqnarray}
+  {\cal M} &=& ig_Z^2(4E_1E_2)^{1/2}(l_i^2)^{-1}
+                (g_{\sigma_2}^e)^2\chi_{-\sigma_2}(p_2)
+\nonumber\\
+  &&\times [\epsilon_i]_{\sigma_1}\chi_{\sigma_1}(p_1).\label{subeq:2}
+\end{eqnarray}
+\end{subequations}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id facilisis ligula,
+a ultrices nibh. Nullam suscipit tellus nec mauris fermentum, ornare luctus neque
+tincidunt. Aenean commodo tincidunt varius. Phasellus faucibus metus non erat
+consectetur bibendum. Duis et luctus risus, at egestas justo. Nunc eleifend lacus
+ac laoreet scelerisque. Aenean cursus dignissim magna in ultrices. In eget nisl
+quis nisi.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experiment}
+
+Text zum Experiment mit vielleicht einer Grafik:
+
+\begin{figure}[h]
+
+\caption{ein Bild vom Versuchsaufbau, Aus: \cite{melissinos1966,melissinos2003}.}
+\label{fig:samplefig}
+\end{figure}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id facilisis ligula,
+a ultrices nibh. Nullam suscipit tellus nec mauris fermentum, ornare luctus neque
+tincidunt. Aenean commodo tincidunt varius. Phasellus faucibus metus non erat
+consectetur bibendum. Duis et luctus risus, at egestas justo. Nunc eleifend lacus
+ac laoreet scelerisque. Aenean cursus dignissim magna in ultrices. In eget nisl
+quis nisi.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Daten und Analyse}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id facilisis ligula,
+a ultrices nibh. Nullam suscipit tellus nec mauris fermentum, ornare luctus neque
+tincidunt. Aenean commodo tincidunt varius. Phasellus faucibus metus non erat
+consectetur bibendum. Duis et luctus risus, at egestas justo. Nunc eleifend lacus
+ac laoreet scelerisque. Aenean cursus dignissim magna in ultrices. In eget nisl
+quis nisi. Tabelle \ref{tab:table1}:
+
+
+\begin{table}[h]
+\caption{\label{tab:table1}Eine Tabelle mit Fußnoten}
+\begin{ruledtabular}
+\begin{tabular}{cccccccc}
+ &$r_c$ (\AA)&$r_0$ (\AA)&$\kappa r_0$&
+ &$r_c$ (\AA) &$r_0$ (\AA)&$\kappa r_0$\\
+\hline
+Cu& 0.800 & 14.10 & 2.550 &Sn\footnotemark[1] & 0.680 & 1.870 & 3.700 \\
+Ag& 0.990 & 15.90 & 2.710 &Pb\footnotemark[1] & 0.450 & 1.930 & 3.760 \\
+Tl& 0.480 & 18.90 & 3.550 & & & & \\
 \end{tabular}
-\end{titlepage}
-
-\begin{center}
-  \textbf{Abstract}
-\end{center}
-Hier steht der Abstract
-
-\tableofcontents
-\newpage
-
-
-\section{Materialien und Methoden}
-\subsection{Versuchsaufbau}
-\subsection{Versuchsmethode}
-
-\section{Auswertung und Diskussion}
-
-\section{Schlussfolgerungen}
-
-\section{Anhang}
+\end{ruledtabular}
+\footnotetext[1]{Entnommen aus Ref.~\cite{bevington2003}.}
+\end{table}
 
 
 
-\section{Literatur}
 
-\begingroup
-\renewcommand{\section}[2]{}
-\begin{thebibliography}{20}
-        \bibitem{Hackbarth} Dr. Steffen Hackbarth: \textit{Versuchsskript: Zeitkorrelierte Einzelphotonenmessung}
-        \bibitem{Roeder} Röder et al.: \textit{Photophysical properties of pheophorbide a in solution and in model membrane systems}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Schlussfolgerung}
+
+Schlussoflgerung, sollten wir mal was von nem Buch oder so entnehmen nutzen wir:
+
+
+\begin{quote}
+  Ein Zitat mit Referenz auf das Buch\cite{melissinos1966}
+\end{quote}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id facilisis ligula,
+a ultrices nibh. Nullam suscipit tellus nec mauris fermentum, ornare luctus neque
+tincidunt. Aenean commodo tincidunt varius. Phasellus faucibus metus non erat
+consectetur bibendum. Duis et luctus risus, at egestas justo. Nunc eleifend lacus
+ac laoreet scelerisque. Aenean cursus dignissim magna in ultrices. In eget nisl
+quis nisi.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bibliography{sample-paper}
+\bibliographystyle{prsty}
+\begin{thebibliography}{99}
+\bibitem{abkuerzung1}Autor, Titel, Verlag,  [1945]
+\bibitem{abkuerzung2}Autor, Titel, Verlag,  [1945]
+\bibitem{abkuerzung3}Autor, Titel, Verlag,  [1945]
+\bibitem{abkuerzung4}Autor, Titel, Verlag,  [1945]
 \end{thebibliography}
-\endgroup
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\appendix
+
+\section{Sonstiges}
+Hier sehen wir einen Beispiel Anhang und so könnte man Code in Latex einbinden:
+\begin{verbatim}
+> mkdir ~/8.13
+> mkdir ~/8.13/papers
+> mkdir ~/8.13/papers/template
+> cd ~/8.13/papers/template
+\end{verbatim}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \end{document}
