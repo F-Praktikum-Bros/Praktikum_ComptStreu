@@ -14,13 +14,13 @@ nofootinbib,superscriptaddress]{revtex4-1}
 
 % Titelseite
 \begin{document}
-\title{Titel des Praktikums}
+\title{Compton-Effekt}
 \author         {Ch. Egerland}
 \email[Email: ]{egerlanc@physik.hu-berlin.de}
 \author         {M. Pfeifer}
 \email[Email: ]{mpfeifer@physik.hu-berlin.de}
 \affiliation    {Humboldt-Universität zu Berlin, Institut für Physik}
-\date[Abgabedatum: ]{XX.XX.XXXX}
+\date[Versuchsdatum: ]{13.06.2017}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
@@ -32,113 +32,73 @@ Hier steht der Abstract, also einmal kurz beschreiben, was wir gemacht haben
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Wie wir in Zukunft Paper schreiben}
 
+\section{Zur Theorie des Compton-Effektes}
+Der Compton-Effekt ist ein Phänomen, welches bei der Streuung von Photonen an
+Teilchen beobachtet wird. Hierbei gibt das Photon einen Teil seiner Energie an das
+ruhende Teilchen ab, wodurch die Wellenlänge des Photons steigt und das Teilchen
+sich bewegt. Dieser Mechanismus ist in Abbildung~\ref{fig:kinematik} veranschaulicht.
+Die Energie des gestreuten $\gamma$-Quants ist gegeben durch:
 
-Wir untergliedern in:
-\begin{enumerate}
-\item Theorie: kleine Zusammenfassung der Theorie, die hinter'm Experiment steht
+  \begin{equation}
+    E^* = \frac{E_0}{1+\gamma(1- cos \theta)}
+    \label{eq:streuenergie}
+  \end{equation}
 
-\item Experiment: Aufbau, Funktionsweise
+Hierbei ist $\theta$ der Streuwinkel und $\gamma = E_0/mc^2$ das Verhältnis der
+Energie des eintreffenden Photons zur Ruheenergie des Elektrons. Man sieht, dass
+dieser Effekt sich erst für hohe Photonenergien (also $\gamma >> 1$) bemerkbar
+macht.
 
-\item Daten und Analyse: Auswertung
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.5\textwidth]{comptstreu_schema.jpeg}
+  \caption{\label{fig:kinematik} Kinematik des Compton-Effekts aus \cite{skript07}.}
+\end{figure}
 
-\item Schlussfolgerung:
+Der korrekte differentielle Wirkungsquerschnitt, der die Winkelverteilung des
+Compton-Effektes beschreibt, ist durch die Klein-Nishina-Formel gegeben:
 
-\end{enumerate}
+  \begin{equation}
+    \frac{d \sigma}{d \Omega} = \frac{r_0^2}{2} \left( \frac{E^*}{E_0} \right)^2
+    \left( \frac{E_0}{E^*} + \frac{E^*}{E_0} - sin^2 \theta    \right)
+    \label{eq:kleinnishina}
+  \end{equation}
 
-{\bf So und nicht anders!}
-\\
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id facilisis ligula,
-a ultrices nibh. Nullam suscipit tellus nec mauris fermentum, ornare luctus neque
-tincidunt. Aenean commodo tincidunt varius. Phasellus faucibus metus non erat
-consectetur bibendum. Duis et luctus risus, at egestas justo. Nunc eleifend lacus
-ac laoreet scelerisque. Aenean cursus dignissim magna in ultrices. In eget nisl
-quis nisi.
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Theorie}
-
-Hier mal noch Beispiele wie man Gleichungen richtig referenziert, siehe
-Gleichung.~\ref{eq:first-equation} :
-\begin{equation}
-   \chi_+(p)\alt{\bf [}2|{\bf p}|(|{\bf p}|+p_z){\bf ]}^{-1/2}
-   \left(
-   \begin{array}{c}
-      |{\bf p}|+p_z\\
-      px+ip_y
-   \end{array}\right)
-   \label{eq:first-equation}
-\end{equation}
-
-
-Oder auch in der Zeile: $\vec{\psi_1} = |\psi_1\rangle \equiv c_0|0\rangle +
-c_1|1\rangle \chi^2 \approx
-\prod\sum\left[\frac{y_i-f(x_i)}{\sigma_i}\right]^2 |\psi_1\rangle
-\sim \lim_{\mu \rightarrow \infty}p(x;\mu) \geq \frac{1}{\sqrt{2 \pi
-\mu}} e^{-(x-\mu)^2 / 2\mu}P(x) \ll \int_{-\infty}^x p(x')dx'a
-\times b \pm c \Rightarrow \nabla \hbar$.
-
-Manchmal auch über mehr als eine Zeile, siehe Equation~\ref{eq:multilineeq}:
-\begin{eqnarray}
-  \sum \vert M^{\text{viol}}_g \vert ^2
-   &=&  g^{2n-4}_S(Q^2)~N^{n-2} (N^2-1)
-\nonumber
-\\
-   &&   \times \left( \sum_{i<j}\right) \sum_{\text{perm}}
-            \frac{1}{S_{12}}  \frac{1}{S_{12}} \sum_\tau c^f_\tau
-\,.
-\label{eq:multilineeq}
-\end{eqnarray}
-
-Natürlich gibts auch die guten alten subequations wie (\ref{subeq:1}) und
-(\ref{subeq:2}):
-\begin{subequations}
-\label{eq:whole}
-\begin{equation}
-  \left\{
-      abc123456abcdef\alpha\beta\gamma\delta1234556\alpha\beta
-       \frac{1\sum^{a}_{b}}{A^2}
-  \right\}
-%
-\,\label{subeq:1}
-\end{equation}
-\begin{eqnarray}
-  {\cal M} &=& ig_Z^2(4E_1E_2)^{1/2}(l_i^2)^{-1}
-                (g_{\sigma_2}^e)^2\chi_{-\sigma_2}(p_2)
-\nonumber\\
-  &&\times [\epsilon_i]_{\sigma_1}\chi_{\sigma_1}(p_1).\label{subeq:2}
-\end{eqnarray}
-\end{subequations}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id facilisis ligula,
-a ultrices nibh. Nullam suscipit tellus nec mauris fermentum, ornare luctus neque
-tincidunt. Aenean commodo tincidunt varius. Phasellus faucibus metus non erat
-consectetur bibendum. Duis et luctus risus, at egestas justo. Nunc eleifend lacus
-ac laoreet scelerisque. Aenean cursus dignissim magna in ultrices. In eget nisl
-quis nisi.
+Aus dieser Formel folgt, dass es eine Vorwärts-Rückwärts-Asymmetrie gibt, d.h.
+es werden mehr Photonen in die Vorwärtsrichtung, als in die Rückwärtsrichtung
+gestreut.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Experiment}
-
-Text zum Experiment mit vielleicht einer Grafik:
+Der Versuchsaufbau ist in Abbildung ~\ref{fig:aufbau} gezeigt. Die Photonen treten
+aus der Strahlungsquelle (Daten in Tabelle ~\ref{tab:materialien}) in den Kolliminator
+welcher dafür sorgt, dass die Photonen aus nahezu 0° kommen. Das Aluminium-Streutarget
+ist herausnehmbar. Dann wird die Energie der Photonen in einem Thallium dotierten
+NaJ-Szintillator in Spannung umgewandelt und nach Verstärkung am PC in der Software
+MAESTRO in einem Histogramm dargestellt. Die Auswertung dessen ist in Abschnitt
+III besprochen.
 
 \begin{figure}[h]
-
-\caption{ein Bild vom Versuchsaufbau, Aus: \cite{melissinos1966,melissinos2003}.}
-\label{fig:samplefig}
+  \centering
+  \includegraphics[width=0.5\textwidth]{aufbau.jpeg}
+  \caption{\label{fig:aufbau} Versuchsaufbau aus \cite{skript07}.}
 \end{figure}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id facilisis ligula,
-a ultrices nibh. Nullam suscipit tellus nec mauris fermentum, ornare luctus neque
-tincidunt. Aenean commodo tincidunt varius. Phasellus faucibus metus non erat
-consectetur bibendum. Duis et luctus risus, at egestas justo. Nunc eleifend lacus
-ac laoreet scelerisque. Aenean cursus dignissim magna in ultrices. In eget nisl
-quis nisi.
+\begin{table}[h]
+\begin{ruledtabular}
+\begin{tabular}{cccc}
+ Präparat & $\gamma$-Energie in MeV & Aktivität (kBq) & Halbwertszeit\\
+\hline
+^{133} Ba & 0.356 & 397 & 10.54a \\
+^{22} Na & 0.511 & 374 & 2.603a \\
+^{137} Cs & 0.662 & 371 & 30.17a \\
+\end{tabular}
+\end{ruledtabular}
+\caption{\label{tab:materialien} Daten der Photonenquellen ermittelt am 01.11.1996
+mit einem Fehler von 4\%.}
+\end{table}
 
 
 
@@ -153,20 +113,7 @@ ac laoreet scelerisque. Aenean cursus dignissim magna in ultrices. In eget nisl
 quis nisi. Tabelle \ref{tab:table1}:
 
 
-\begin{table}[h]
-\caption{\label{tab:table1}Eine Tabelle mit Fußnoten}
-\begin{ruledtabular}
-\begin{tabular}{cccccccc}
- &$r_c$ (\AA)&$r_0$ (\AA)&$\kappa r_0$&
- &$r_c$ (\AA) &$r_0$ (\AA)&$\kappa r_0$\\
-\hline
-Cu& 0.800 & 14.10 & 2.550 &Sn\footnotemark[1] & 0.680 & 1.870 & 3.700 \\
-Ag& 0.990 & 15.90 & 2.710 &Pb\footnotemark[1] & 0.450 & 1.930 & 3.760 \\
-Tl& 0.480 & 18.90 & 3.550 & & & & \\
-\end{tabular}
-\end{ruledtabular}
-\footnotetext[1]{Entnommen aus Ref.~\cite{bevington2003}.}
-\end{table}
+
 
 
 
@@ -193,7 +140,7 @@ quis nisi.
 \bibliography{sample-paper}
 \bibliographystyle{prsty}
 \begin{thebibliography}{99}
-\bibitem{abkuerzung1}Autor, Titel, Verlag,  [1945]
+\bibitem{skript07}O.Epler, U. Schwanke, Compton-Effekt (Versuchsskript),  [2007]
 \bibitem{abkuerzung2}Autor, Titel, Verlag,  [1945]
 \bibitem{abkuerzung3}Autor, Titel, Verlag,  [1945]
 \bibitem{abkuerzung4}Autor, Titel, Verlag,  [1945]
