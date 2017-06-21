@@ -79,17 +79,33 @@ gestreut.
 \section{Experiment}
 Der Versuchsaufbau ist in Abbildung ~\ref{fig:aufbau} gezeigt. Die Photonen treten
 aus der Strahlungsquelle (Daten in Tabelle ~\ref{tab:materialien}) in den Kolliminator
-welcher dafür sorgt, dass die Photonen aus nahezu 0° kommen. Das Aluminium-Streutarget
-ist herausnehmbar. Dann wird die Energie der Photonen in einem Thallium dotierten
-NaJ-Szintillator in Spannung umgewandelt und nach Verstärkung am PC in der Software
-MAESTRO in einem Histogramm dargestellt. Die Auswertung dessen ist in Abschnitt
-III besprochen.
+welcher dafür sorgt, dass die Photonen aus nahezu 0 Grad kommen. Das Aluminium-
+Streutarget ist herausnehmbar.
 
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.5\textwidth]{aufbau.jpeg}
   \caption{\label{fig:aufbau} Versuchsaufbau aus \cite{skript07}.}
 \end{figure}
+
+Die Photonen treffen auf den Detektor, der in unserem
+Fall aus einem Thallium dotierten NaJ-Szintillator besteht. Ein eintreffendes Photon
+erzeugt im NaJ-Kristall ein Elektron-Loch-Paar welches sich zum Aktivatorzentrum
+(also Thallium) bewegt und dieses anregt. Durch Emission von Licht kehrt das Thallium
+nun wieder in seinen Grundzustand zurück. Die aus dem Detektor gelösten Photonen
+werden nun im Photomultiplier verstärkt. Hierbei trifft ein Photon auf den
+Photomultiplier und löst durch den Photoeffekt ein Elektron, welches im weiteren
+Verlauf weitere Elektronen aus den Dynoden herausschlägt (die sogenannten
+Sekundärelektronen). Somit entsteht eine Spannung, welche wir als proportional zur
+Energie der eintreffenden Photonen (am Szintillator) betrachten können. Diese
+Spannung wird durch zwei Verstärker verstärkt und gelangt nun in den Multi Channel
+Analyzer, welcher dafür sorgt, dass die eintreffenden Impulse mit verschiedener
+Amplitude entsprechend diese einem Kanal zugeordnet werden. Diese Kanäle können
+wir am PC auslesen und in einem Histogramm darstellen, wir sehen also ein Diagramm,
+dass uns die Counts in den jeweiligen Kanälen zeigt. Wie wir hieraus weitere
+Informationen/Zahlen erhalten ist in Abschnitt III erklärt.
+
+
 
 \begin{table}[h]
 \begin{ruledtabular}
