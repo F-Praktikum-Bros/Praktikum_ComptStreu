@@ -44,25 +44,25 @@ figure(8)
 errorbar(1:length(Ba),Ba,errBa,'.','MarkerEdgeColor','black')
 xlabel('Kanal K'), ylabel('Anzahl Ereignisse pro Sekunde [1/s]')
 xlim([0,length(R)])
-saveas(gcf,'BaK.epsc')
+saveas(gcf,'BaK.jpg')
 
 figure(9)
 errorbar(1:length(CsT),CsT,errCsT,'.','MarkerEdgeColor','black')
 xlabel('Kanal K'), ylabel('Anzahl Ereignisse pro Sekunde [1/s]')
 xlim([0,length(R)])
-saveas(gcf,'CsTK.epsc')
+saveas(gcf,'CsTK.jpg')
 
 figure(10)
 errorbar(1:length(Cs),Cs,errCs,'.','MarkerEdgeColor','black')
 xlabel('Kanal K'), ylabel('Anzahl Ereignisse pro Sekunde [1/s]')
 xlim([0,length(R)])
-saveas(gcf,'CsK.epsc')
+saveas(gcf,'CsK.jpg')
 
 figure(11)
 errorbar(1:length(Nac),Nac,errNac,'.','MarkerEdgeColor','black')
 xlabel('Kanal K'), ylabel('Anzahl Ereignisse pro Sekunde [1/s]')
 xlim([0,length(R)])
-saveas(gcf,'NaK.epsc')
+saveas(gcf,'NaK.jpg')
 
 % relevanter Bereich, Gauss-Peak
 intan=210; intend=400;
@@ -80,7 +80,7 @@ errorbar(234+[1:length(Bar)],Bar.',errBar,'.','MarkerEdgeColor','black')
 hold on; plot(fBar);
 ylabel('Anzahl Ereignisse pro Sekunde [1/s]'), xlabel('Kanal K'), xlim([233,318])
 hold off
-saveas(gcf,'peakBaK.epsc')
+saveas(gcf,'peakBaK.jpg')
 
 [fCsTr,gofCsTr] = fit(399+[1:length(CsTr)].',CsTr,'gauss1','Weights',errCsTr);
 ci_fCsTr=confint(fCsTr,sigmaumg);
@@ -97,7 +97,7 @@ errorbar(399+[1:length(Csr)],Csr.',errCsr,'.','MarkerEdgeColor','black')
 hold on; plot(fCsr);
 ylabel('Anzahl Ereignisse pro Sekunde [1/s]'), xlabel('Kanal K'), xlim([387,647])
 hold off
-saveas(gcf,'peakCsrK.epsc')
+saveas(gcf,'peakCsrK.jpg')
 
 [fNar,gofNar] = fit(intan-1+[1:length(Nar)].',Nar,'gauss1','Weights',errNar);
 ci_fNar=confint(fNar,sigmaumg);
@@ -106,7 +106,7 @@ errorbar(intan-1+[1:length(Nar)],Nar.',errNar,'.','MarkerEdgeColor','black')
 hold on; plot(fNar);
 ylabel('Anzahl Ereignisse pro Sekunde [1/s]'), xlabel('Kanal K'), xlim([220,370])
 hold off
-saveas(gcf,'peakNarK.epsc')
+saveas(gcf,'peakNarK.jpg')
 
 % Peak-Positionen
 bBar=fBar.b1; errbBar=0.5*(ci_fBar(2,2)-ci_fBar(1,2)); EBa=.356; % Kanal, MeV
@@ -122,7 +122,7 @@ hold on
 plot(flin)
 xlabel('Energie E [MeV]'), ylabel('Kanal K')
 hold off
-saveas(gcf,'eichkurveKvonE.epsc')
+saveas(gcf,'eichkurveKvonE.jpg')
 ci_flin=confint(flin,0.68);
 up1=0.5*(ci_flin(2,1)-ci_flin(1,1));
 up2=0.5*(ci_flin(2,2)-ci_flin(1,2));
@@ -138,7 +138,7 @@ hold on
 plot(e1*(bBar:0.01:bCsr)+e2,bBar:0.01:bCsr)
 hold off
 ylabel('Kanal K'), xlabel('Energie E [MeV]')
-saveas(gcf,'eichkurveEvonK.epsc')
+saveas(gcf,'eichkurveEvonK.jpg')
 E=@(K) e1*K+e2; uE=@(K,uK) sqrt( (K*ue1).^2 + (ue2).^2 + (e1*uK).^2 );
 
 
@@ -172,7 +172,7 @@ figure(7)
 errorbar(EVec,A,uA,'.','MarkerEdgeColor','black'); hold on
 plot(fitA); hold off
 xlabel('Energie E [MeV]'), ylabel('rel. Aufloesung')
-saveas(gcf,'relAufl.epsc')
+saveas(gcf,'relAufl.jpg')
 
 disp('relative Auflösungen Ba Cs Na');
 relA=@(E) (fitA.a)./sqrt(E)+fitA.b;
@@ -183,7 +183,7 @@ EVecCs=E(1:length(Cs));
 figure(12)
 errorbar(EVecCs,Cs,errCs,'.','MarkerEdgeColor','black')
 xlim([0 EVecCs(end)+0.1]), xlabel('Energie E [MeV]'), ylabel('Anzahl Ereignisse pro Sekunde [1/s]')
-saveas(gcf,'CsunkorrigiertE.epsc')
+saveas(gcf,'CsunkorrigiertE.jpg')
 
 % Plot Cs mit und ohne Target (korrigiert)
 figure(13)
@@ -209,7 +209,7 @@ figure(17)
 errorbar([1:length(R)],R,errR,'.','MarkerEdgeColor','black')
 xlabel('Kanal K'), ylabel('Anzahl Ereignisse pro Sekunde [1/s]')
 xlim([0,length(R)])
-saveas(gcf,'Rauschen.epsc')
+saveas(gcf,'Rauschen.jpg')
 
 
 % Fit Compton WQ ohne Target
@@ -227,7 +227,7 @@ hold off
 xlabel('Energie [MeV]'), ylabel('Anzahl Ereignisse pro Sekunde [1/s]')
 xlim([E(328) E(697)])
 legend('Cs ohne Target + Fit','Cs mit Target + Fit','Location','northwest')
-saveas(gcf,'FitsComptonCs.epsc')
+saveas(gcf,'FitsComptonCs.jpg')
 
 ci_fitCsp=confint(fitCsp,0.68);
 ci_fitCsTp=confint(fitCsTp,0.68);
@@ -254,10 +254,10 @@ sigmaVec=sigma(gVec);
 figure(16)
 plot(gVec,sigmaVec)
 hold on
-h = errorbar(g(ECs),CWQ,uCWQ,'o');
+h = errorbar(g(ECs),CWQ,uCWQ,'.');
 set(get(h,'Parent'),'XScale','log', 'YScale', 'log')
 hold off
 xlabel('Gamma'),ylabel('Wirkungsquerschnitt  [barn]')
-saveas(gcf,'TotalerWQ.epsc')
+saveas(gcf,'TotalerWQ.jpg')
 
 % natuerliche Linienbreite: ~10^-24
