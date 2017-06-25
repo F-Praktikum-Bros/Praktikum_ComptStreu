@@ -1,13 +1,14 @@
 # Fdb version 3
-["bibtex comptonstreu"] 1498425836 "comptonstreu.aux" "comptonstreu.bbl" "comptonstreu" 1498425837
-  "comptonstreu.aux" 1498425837 1773 414a415ae19f14c83c18be8ca8f199c7 ""
-  "comptonstreuNotes.bib" 1498425836 0 d41d8cd98f00b204e9800998ecf8427e ""
+["bibtex comptonstreu"] 1498428302 "comptonstreu.aux" "comptonstreu.bbl" "comptonstreu" 1498428303
+  "comptonstreu.aux" 1498428303 1913 1dad10043c1f193aca551caab8e86974 ""
+  "comptonstreuNotes.bib" 1498428303 0 d41d8cd98f00b204e9800998ecf8427e ""
   "prsty.bst" 0 -1 0 ""
   "sample-paper.bib" 0 -1 0 ""
   (generated)
-  "comptonstreu.bbl"
   "comptonstreu.blg"
-["pdflatex"] 1498425836 "comptonstreu.tex" "comptonstreu.pdf" "comptonstreu" 1498425837
+  "comptonstreu.bbl"
+["pdflatex"] 1498428302 "comptonstreu.tex" "comptonstreu.pdf" "comptonstreu" 1498428303
+  "../Messung/OsziVerstaerkerkurve/TEK00009.jpg" 1498427925 92314 a2f189ecade12b19af4062d068d6c15d ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1233955448 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1233955448 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1233955448 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -120,13 +121,13 @@
   "C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/textcase/textcase.sty" 1128365776 2083 79a2c3efd954daff1698214872b6ca46 ""
   "C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/was/upgreek.sty" 1081504700 5928 9054e31be15d93f1e6bd28cca2b6643f ""
-  "aufbau.jpeg" 1498325454 128496 65597f7ce75140910053e7855f2142d9 ""
-  "comptonstreu.aux" 1498425837 1773 414a415ae19f14c83c18be8ca8f199c7 ""
+  "aufbau.jpeg" 1498427379 128496 65597f7ce75140910053e7855f2142d9 ""
+  "comptonstreu.aux" 1498428303 1913 1dad10043c1f193aca551caab8e86974 ""
   "comptonstreu.bbl" 0 -1 0 "bibtex comptonstreu"
-  "comptonstreu.tex" 1498425835 9469 db6fecebedbdfd855e02aba5a8c20522 ""
-  "comptstreu_schema.jpeg" 1498325525 21230 a07007abcf2d42be99f1b2fd5886b5b2 ""
+  "comptonstreu.tex" 1498428301 10385 a9a4d2c4a7cfaaefe0ecf37429bddcc0 ""
+  "comptstreu_schema.jpeg" 1498427379 49456 676eef77ce1fce556e10a90fb0ee094a ""
   (generated)
-  "comptonstreuNotes.bib"
-  "comptonstreu.pdf"
-  "comptonstreu.aux"
   "comptonstreu.log"
+  "comptonstreu.pdf"
+  "comptonstreuNotes.bib"
+  "comptonstreu.aux"

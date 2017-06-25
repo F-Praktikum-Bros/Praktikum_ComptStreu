@@ -1,4 +1,4 @@
-PWD D:/doc/physik/FPR/ComptonStreu
+PWD D:/doc/physik/FPR/github/compton/Praktikum_ComptStreu/Protokoll
 INPUT C:/Users/MP/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt
 INPUT comptonstreu.tex
 OUTPUT comptonstreu.log
@@ -164,6 +164,11 @@ INPUT ./aufbau.jpeg
 INPUT ./aufbau.jpeg
 INPUT ./aufbau.jpeg
 INPUT C:/Users/MP/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
+INPUT ../Messung/OsziVerstaerkerkurve/TEK00009.jpg
+INPUT ../Messung/OsziVerstaerkerkurve/TEK00009.jpg
+INPUT ../Messung/OsziVerstaerkerkurve/TEK00009.jpg
+INPUT ../Messung/OsziVerstaerkerkurve/TEK00009.jpg
+INPUT ../Messung/OsziVerstaerkerkurve/TEK00009.jpg
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmtt10.tfm
 INPUT comptonstreu.aux
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
