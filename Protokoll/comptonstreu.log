@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.2)  26 JUN 2017 11:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.2)  26 JUN 2017 23:43
 entering extended mode
 **./comptonstreu.tex
 (comptonstreu.tex
@@ -580,73 +580,14 @@ LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 (C:\Users\MP\AppData\Roaming\MiKTeX\2.9\tex\latex\cleveref\cleveref.sty
 Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
 )
-(C:\Users\MP\AppData\Roaming\MiKTeX\2.9\tex\latex\subfig\subfig.sty
-Package: subfig 2005/06/28 ver: 1.3 subfig package
+Class revtex4-1 Info: Patching LaTeX tabular. on input line 22.
+Class revtex4-1 Info: Patching longtable package on input line 22.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 22.
 
-(C:\Users\MP\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 22.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 22.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 22.
 
-(C:\Users\MP\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen115
-\captionmargin@=\dimen116
-\captionwidth=\dimen117
-\caption@tempdima=\dimen118
-\caption@indent=\dimen119
-\caption@parindent=\dimen120
-\caption@hangindent=\dimen121
-Package caption Info: Unknown document class (or package),
-(caption)             standard defaults will be used.
-)
-
-Package caption Warning: Unsupported document class (or package) detected,
-(caption)                usage of the caption package is not recommended.
-See the caption package documentation for explanation.
-
-Package caption Info: \@makecaption = \long macro:#1#2->\par \vskip \abovecapti
-onskip \begingroup \small \rmfamily \sbox \@tempboxa {\let \\\heading@cr \@make
-@capt@title {#1}{#2}}\@ifdim {\wd \@tempboxa >\hsize }{\begingroup \samepage \f
-lushing \let \footnote \@footnotemark@gobble \@make@capt@title {#1}{#2}\par \en
-dgroup }{\global \@minipagefalse \hb@xt@ \hsize {\hfil \unhbox \@tempboxa \hfil
- }}\endgroup \vskip \belowcaptionskip .
-\c@ContinuedFloat=\count114
-Package caption Info: longtable package is loaded.
-(C:\Users\MP\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\ltcaption.sty
-Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
-))
-\c@KVtest=\count115
-\sf@farskip=\skip53
-\sf@captopadj=\dimen122
-\sf@capskip=\skip54
-\sf@nearskip=\skip55
-\c@subfigure=\count116
-\c@subfigure@save=\count117
-\c@lofdepth=\count118
-\c@subtable=\count119
-\c@subtable@save=\count120
-\c@lotdepth=\count121
-\sf@top=\skip56
-\sf@bottom=\skip57
-)
-Class revtex4-1 Info: Patching LaTeX tabular. on input line 23.
-Class revtex4-1 Info: Patching longtable package on input line 23.
-
-
-comptonstreu.tex:23: LaTeX Error: Command \longtable* already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 23.
-
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 23.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 23.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 23.
 (comptonstreu.aux
 
 LaTeX Warning: Label `fig:aufbau' multiply defined.
@@ -657,30 +598,30 @@ LaTeX Warning: Label `fig:aufbau@cref' multiply defined.
 )
 \openout1 = `comptonstreu.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
  (C:\Users\MP\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count122
-\scratchdimen=\dimen123
+\scratchcounter=\count114
+\scratchdimen=\dimen115
 \scratchbox=\box47
-\nofMPsegments=\count123
-\nofMParguments=\count124
+\nofMPsegments=\count115
+\nofMParguments=\count116
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count125
-\MPscratchDim=\dimen124
-\MPnumerator=\count126
-\makeMPintoPDFobject=\count127
+\MPscratchCnt=\count117
+\MPscratchDim=\dimen116
+\MPnumerator=\count118
+\makeMPintoPDFobject=\count119
 \everyMPtoPDFconversion=\toks27
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
@@ -727,17 +668,14 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfig package v1.3 is loaded.
-Package caption Info: End \AtBeginDocument code.
 \openout3 = `comptonstreuNotes.bib'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 35.
+LaTeX Font Info:    Try loading font information for U+msa on input line 34.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 35.
+LaTeX Font Info:    Try loading font information for U+msb on input line 34.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -746,42 +684,64 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: comptstreu_schema.jpg Graphic file (type jpg)
 
 <use comptstreu_schema.jpg>
-Package pdftex.def Info: comptstreu_schema.jpg used on input line 66.
+Package pdftex.def Info: comptstreu_schema.jpg used on input line 65.
 (pdftex.def)             Requested size: 255.0pt x 132.16458pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 66--67
+Overfull \hbox (9.0pt too wide) in paragraph at lines 65--66
  [][] 
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 79--82
+Underfull \hbox (badness 1867) in paragraph at lines 78--81
 []\OT1/cmr/m/n/10 Aus die-ser For-mel folgt, dass es ei-ne Vorw[]arts-
  []
 
 
-Underfull \hbox (badness 4036) in paragraph at lines 79--82
+Underfull \hbox (badness 4036) in paragraph at lines 78--81
 \OT1/cmr/m/n/10 R[]uckw[]arts-Asymmetrie gibt, d.h. es wer-den mehr
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--82
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
 \OT1/cmr/m/n/10 Pho-to-nen in die Vorw[]artsrichtung, als in die
  []
 
 <aufbau.jpeg, id=2, 1038.88126pt x 586.19pt>
 File: aufbau.jpeg Graphic file (type jpg)
  <use aufbau.jpeg>
-Package pdftex.def Info: aufbau.jpeg used on input line 93.
+Package pdftex.def Info: aufbau.jpeg used on input line 92.
 (pdftex.def)             Requested size: 255.0pt x 143.88167pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 93--94
+Overfull \hbox (9.0pt too wide) in paragraph at lines 92--93
  [][] 
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 97--108
+Underfull \hbox (badness 1062) in paragraph at lines 96--107
 \OT1/cmr/m/n/10 Pho-to-nen wer-den nun im Pho-to-mul-ti-plier verst[]arkt.
  []
+
+comptonstreu.tex:113: Missing $ inserted
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+comptonstreu.tex:113: Extra }, or forgotten $
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+comptonstreu.tex:113: Missing $ inserted
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+comptonstreu.tex:113: Missing } inserted
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 comptonstreu.tex:114: Missing $ inserted
 I've inserted a begin-math/end-math symbol since I think
@@ -827,28 +787,6 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-comptonstreu.tex:116: Missing $ inserted
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-comptonstreu.tex:116: Extra }, or forgotten $
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-comptonstreu.tex:116: Missing $ inserted
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-comptonstreu.tex:116: Missing } inserted
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -856,19 +794,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 _schema.jpg> <./aufbau.jpeg>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 128.
+ on input line 127.
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 131--134
+Underfull \hbox (badness 1303) in paragraph at lines 130--133
 \OT1/cmr/m/n/10 w[]ahrend des Ver-su-ches aus-ge-setzt ist. Hierf[]ur wird
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 131--134
+Underfull \hbox (badness 1881) in paragraph at lines 130--133
 \OT1/cmr/m/n/10 ei-ne Ex-pe-ri-men-tier-dau-er von 12 Stun-den und ei-ne
  []
 
-comptonstreu.tex:143: Extra }, or forgotten $
+comptonstreu.tex:142: Extra }, or forgotten $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -876,40 +814,252 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-LaTeX Warning: Reference `fig:BaK' on page 1 undefined on input line 158.
-
-<../Messung/BaK.jpg, id=20, 878.28125pt x 658.46pt>
-File: ../Messung/BaK.jpg Graphic file (type jpg)
- <use ../Messung/BaK.jpg>
-Package pdftex.def Info: ../Messung/BaK.jpg used on input line 164.
-(pdftex.def)             Requested size: 163.20374pt x 122.35574pt.
-File: ../Messung/BaK.jpg Graphic file (type jpg)
-
-<use ../Messung/BaK.jpg>
-Package pdftex.def Info: ../Messung/BaK.jpg used on input line 165.
-(pdftex.def)             Requested size: 163.20374pt x 122.35574pt.
-File: ../Messung/BaK.jpg Graphic file (type jpg)
- <use ../Messung/BaK.jpg>
-Package pdftex.def Info: ../Messung/BaK.jpg used on input line 166.
-(pdftex.def)             Requested size: 163.20374pt x 122.35574pt.
-
-
-Package natbib Warning: Citation `melissinos1966' on page 2 undefined on input 
-line 180.
-
-No file comptonstreu.bbl.
-
-Underfull \hbox (badness 1087) in paragraph at lines 196--197
- []\OT1/cmr/m/n/9 H.Krieger, Grund-la-gen der Strah-lungs-phy-sik und des
+Underfull \hbox (badness 1939) in paragraph at lines 145--148
+\OT1/cmr/m/n/10 Dabei be-zeich-net $\OML/cmm/m/it/10 A[]$ \OT1/cmr/m/n/10 die A
+k-ti-vit[]at der Quel-le am
  []
 
-comptonstreu.tex:197: Missing $ inserted
+
+LaTeX Warning: Reference `fig:spektrenK' on page 1 undefined on input line 158.
+
+
+comptonstreu.tex:171: Missing $ inserted
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+comptonstreu.tex:171: Extra }, or forgotten $
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+comptonstreu.tex:171: Missing $ inserted
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+comptonstreu.tex:171: Missing } inserted
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+comptonstreu.tex:171: Missing $ inserted
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+comptonstreu.tex:171: Extra }, or forgotten $
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+comptonstreu.tex:171: Missing $ inserted
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+comptonstreu.tex:171: Missing } inserted
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+comptonstreu.tex:172: Missing $ inserted
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+comptonstreu.tex:172: Extra }, or forgotten $
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+comptonstreu.tex:172: Missing $ inserted
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+comptonstreu.tex:172: Missing } inserted
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+comptonstreu.tex:172: Missing $ inserted
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+comptonstreu.tex:172: Extra }, or forgotten $
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+comptonstreu.tex:172: Missing $ inserted
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+comptonstreu.tex:172: Missing } inserted
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+comptonstreu.tex:173: Missing $ inserted
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+comptonstreu.tex:173: Extra }, or forgotten $
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+comptonstreu.tex:173: Missing $ inserted
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+comptonstreu.tex:173: Missing } inserted
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+comptonstreu.tex:173: Missing $ inserted
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+comptonstreu.tex:173: Extra }, or forgotten $
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+comptonstreu.tex:173: Missing $ inserted
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+comptonstreu.tex:173: Missing } inserted
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+<../Messung/eichkurveEvonK.jpg, id=20, 878.28125pt x 658.46pt>
+File: ../Messung/eichkurveEvonK.jpg Graphic file (type jpg)
+
+<use ../Messung/eichkurveEvonK.jpg>
+Package pdftex.def Info: ../Messung/eichkurveEvonK.jpg used on input line 185.
+(pdftex.def)             Requested size: 255.0pt x 191.1796pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 185--186
+ [][] 
+ []
+
+[2 <../Messung/eichkurveEvonK.jpg>]
+<../Messung/relAufl.jpg, id=29, 878.28125pt x 658.46pt>
+File: ../Messung/relAufl.jpg Graphic file (type jpg)
+
+<use ../Messung/relAufl.jpg>
+Package pdftex.def Info: ../Messung/relAufl.jpg used on input line 203.
+(pdftex.def)             Requested size: 255.0pt x 191.1796pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 203--204
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+[]\OT1/cmr/m/n/9 Abbildung 4. [][]re-la-ti-ve Aufl[]osung des De-tek-tors in
+ []
+
+comptonstreu.tex:214: Missing $ inserted
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+comptonstreu.tex:214: LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+comptonstreu.tex:215: Missing $ inserted
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+<../Messung/Csuk.jpg, id=30, 878.28125pt x 658.46pt>
+File: ../Messung/Csuk.jpg Graphic file (type jpg)
+ <use ../Messung/Csuk.jpg>
+Package pdftex.def Info: ../Messung/Csuk.jpg used on input line 237.
+(pdftex.def)             Requested size: 249.9028pt x 187.35158pt.
+
+<../Messung/Csk.jpg, id=31, 878.28125pt x 658.46pt>
+File: ../Messung/Csk.jpg Graphic file (type jpg)
+ <use ../Messung/Csk.jpg>
+Package pdftex.def Info: ../Messung/Csk.jpg used on input line 240.
+(pdftex.def)             Requested size: 249.9028pt x 187.35158pt.
+
+
+Class revtex4-1 Warning: Float cannot be placed.
+
+[3 <../Messung/relAufl.jpg>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 275.
+
+
+Package natbib Warning: Citation `melissinos1966' on page 4 undefined on input 
+line 291.
+
 No file comptonstreu.bbl.
 
-comptonstreu.tex:198: LaTeX Error: Command \end{thebibliography} invalid in mat
+Underfull \hbox (badness 1087) in paragraph at lines 307--308
+ []\OT1/cmr/m/n/9 H.Krieger, Grund-la-gen der Strah-lungs-phy-sik und des
+ []
+
+comptonstreu.tex:308: Missing $ inserted
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+comptonstreu.tex:309: LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+comptonstreu.tex:309: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+comptonstreu.tex:309: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+No file comptonstreu.bbl.
+
+comptonstreu.tex:310: LaTeX Error: Command \end{thebibliography} invalid in mat
 h mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -918,72 +1068,122 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Package natbib Warning: Empty `thebibliography' environment on input line 198.
+Package natbib Warning: Empty `thebibliography' environment on input line 310.
 
 
-Package natbib Warning: Empty `thebibliography' environment on input line 198.
+Package natbib Warning: Empty `thebibliography' environment on input line 310.
 
-comptonstreu.tex:198: Missing $ inserted
+comptonstreu.tex:310: Missing $ inserted
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 4752) in paragraph at lines 197--198
+Underfull \hbox (badness 4752) in paragraph at lines 308--310
  []\OT1/cmr/m/n/9 Bundesamt f[]ur Strah-len-schutz, "Wie hoch ist die
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
+Underfull \hbox (badness 10000) in paragraph at lines 308--310
  \OT1/cmr/m/n/9 http://www.bfs.de/DE/themen/ion/umwelt/natuerliche-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
+Underfull \hbox (badness 10000) in paragraph at lines 308--310
  \OT1/cmr/m/n/9 strahlenbelastung/natuerliche-
  []
 
-[2] [3 <../Messung/BaK.jpg>]
-comptonstreu.tex:219: Missing $ inserted
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--310
+ \OT1/cmr/m/n/9 strahlenbelastung$[]\OML/cmm/m/it/9 ode:html\OT1/cmr/m/n/9 )[]\
+OML/cmm/m/it/9 JanBeier; PaulLedwon \OT1/cmr/m/n/9 :
+ []
+
+[4] [5 <../Messung/Csuk.jpg> <../Messung/Csk.jpg>]
+comptonstreu.tex:331: Missing $ inserted
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-comptonstreu.tex:219: Missing $ inserted
+comptonstreu.tex:331: Missing $ inserted
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-comptonstreu.tex:219: Missing $ inserted
+comptonstreu.tex:331: Missing $ inserted
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-comptonstreu.tex:219: Missing $ inserted
+comptonstreu.tex:331: Missing $ inserted
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-comptonstreu.tex:219: Missing $ inserted
+comptonstreu.tex:331: Missing $ inserted
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-comptonstreu.tex:219: Missing $ inserted
+comptonstreu.tex:331: Missing $ inserted
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-<../Messung/OsziVerstaerkerkurve/TEK00009.jpg, id=32, 370.0224pt x 277.5168pt>
+<../Messung/OsziVerstaerkerkurve/TEK00009.jpg, id=43, 370.0224pt x 277.5168pt>
 File: ../Messung/OsziVerstaerkerkurve/TEK00009.jpg Graphic file (type jpg)
 
 <use ../Messung/OsziVerstaerkerkurve/TEK00009.jpg>
 Package pdftex.def Info: ../Messung/OsziVerstaerkerkurve/TEK00009.jpg used on i
-nput line 224.
+nput line 336.
 (pdftex.def)             Requested size: 255.0pt x 191.24965pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 224--225
+Overfull \hbox (9.0pt too wide) in paragraph at lines 336--337
+ [][] 
+ []
+
+<../Messung/deltaspektrum.jpg, id=44, 791.95876pt x 506.89375pt>
+File: ../Messung/deltaspektrum.jpg Graphic file (type jpg)
+
+<use ../Messung/deltaspektrum.jpg>
+Package pdftex.def Info: ../Messung/deltaspektrum.jpg used on input line 342.
+(pdftex.def)             Requested size: 255.0pt x 163.20708pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 342--343
  [][] 
  []
 
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../Messung/BaK.jpg, id=45, 878.28125pt x 658.46pt>
+File: ../Messung/BaK.jpg Graphic file (type jpg)
+ <use ../Messung/BaK.jpg>
+Package pdftex.def Info: ../Messung/BaK.jpg used on input line 349.
+(pdftex.def)             Requested size: 249.9028pt x 187.35158pt.
+
+<../Messung/NaK.jpg, id=46, 878.28125pt x 658.46pt>
+File: ../Messung/NaK.jpg Graphic file (type jpg)
+ <use ../Messung/NaK.jpg>
+Package pdftex.def Info: ../Messung/NaK.jpg used on input line 352.
+(pdftex.def)             Requested size: 249.9028pt x 187.35158pt.
+
+
+Class revtex4-1 Warning: Float cannot be placed.
+
+<../Messung/CsK.jpg, id=47, 878.28125pt x 658.46pt>
+File: ../Messung/CsK.jpg Graphic file (type jpg)
+ <use ../Messung/CsK.jpg>
+Package pdftex.def Info: ../Messung/CsK.jpg used on input line 358.
+(pdftex.def)             Requested size: 249.9028pt x 187.35158pt.
+
+<../Messung/Rauschen.jpg, id=48, 878.28125pt x 658.46pt>
+File: ../Messung/Rauschen.jpg Graphic file (type jpg)
+
+<use ../Messung/Rauschen.jpg>
+Package pdftex.def Info: ../Messung/Rauschen.jpg used on input line 361.
+(pdftex.def)             Requested size: 249.9028pt x 187.35158pt.
+
+
 Package natbib Warning: There were undefined citations.
 
-[4 <../Messung/OsziVerstaerkerkurve/TEK00009.jpg>] (comptonstreu.aux)
+[6 <../Messung/OsziVerstaerkerkurve/TEK00009.jpg> <../Messung/deltaspektrum.jpg
+>] [7 <../Messung/BaK.jpg> <../Messung/NaK.jpg> <../Messung/CsK.jpg> <../Messun
+g/Rauschen.jpg>] (comptonstreu.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -992,13 +1192,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8090 strings out of 493333
- 123666 string characters out of 3139204
- 255138 words of memory out of 3000000
- 11478 multiletter control sequences out of 15000+200000
+ 6927 strings out of 493333
+ 102711 string characters out of 3139204
+ 217716 words of memory out of 3000000
+ 10320 multiletter control sequences out of 15000+200000
  18327 words of font info for 68 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,9n,49p,276b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,10n,29p,276b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTe
@@ -1014,12 +1214,14 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2
 ype1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
-y7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on comptonstreu.pdf (4 pages, 512279 bytes).
+y7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on comptonstreu.pdf (7 pages, 847469 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
+ 126 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

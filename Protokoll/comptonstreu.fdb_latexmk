@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex comptonstreu"] 1498508606 "comptonstreu.aux" "comptonstreu.bbl" "comptonstreu" 1498508608
-  "comptonstreu.aux" 1498508607 3924 9d4db0bb96816dc26b3509ccd0b6f165 ""
-  "comptonstreuNotes.bib" 1498508607 0 d41d8cd98f00b204e9800998ecf8427e ""
+["bibtex comptonstreu"] 1498513429 "comptonstreu.aux" "comptonstreu.bbl" "comptonstreu" 1498513430
+  "comptonstreu.aux" 1498513430 4534 25b5b2446106bfb130ce656b1a160897 ""
+  "comptonstreuNotes.bib" 1498513430 0 d41d8cd98f00b204e9800998ecf8427e ""
   "prsty.bst" 0 -1 0 ""
   "sample-paper.bib" 0 -1 0 ""
   (generated)
   "comptonstreu.blg"
   "comptonstreu.bbl"
-["pdflatex"] 1498508607 "comptonstreu.tex" "comptonstreu.pdf" "comptonstreu" 1498508608
+["pdflatex"] 1498513429 "comptonstreu.tex" "comptonstreu.pdf" "comptonstreu" 1498513430
   "../Messung/BaK.jpg" 1498504294 34925 945e4606bc80162c3444ff6ee2846c5c ""
   "../Messung/CsK.jpg" 1498504302 58068 ef594550d1f5c75e254813480dfc9483 ""
   "../Messung/Csk.jpg" 1498504302 58068 ef594550d1f5c75e254813480dfc9483 ""
@@ -15,6 +15,7 @@
   "../Messung/NaK.jpg" 1498504295 32843 0922cb8a5a6406ad20f52a9de2aaeb2c ""
   "../Messung/OsziVerstaerkerkurve/TEK00009.jpg" 1498427925 92314 a2f189ecade12b19af4062d068d6c15d ""
   "../Messung/Rauschen.jpg" 1498502858 35242 6baa58532559b4a9292ee0a4afff4935 ""
+  "../Messung/deltaspektrum.jpg" 1498509181 13798 826b275aecd7e7648c2781bc94f21ef1 ""
   "../Messung/eichkurveEvonK.jpg" 1498504300 26332 793b4e067a29f9fa377b911388d22b67 ""
   "../Messung/relAufl.jpg" 1498504301 34645 ed67eea021733b11059cee90707f297e ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1233955448 1120 1e8878807317373affa7f7bba4cf2f6a ""
@@ -81,6 +82,7 @@
   "C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb" 1247596667 36310 f5ddc6715cc60deb16d9db5ded6a9391 ""
   "C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1247596667 31099 342ef5a582aacbd3346f3cf4579679fa ""
   "C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eurm10.pfb" 1335366146 22644 35cfbc2e737f53c1da991002473b4310 ""
+  "C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1247596673 34694 870c211f62cb72718a00e353f14f254d ""
   "C:/Program Files/MiKTeX 2.9/tex/generic/babel/babel.def" 1461657393 51602 8190990703f12b57db0dfe9b839e1e24 ""
   "C:/Program Files/MiKTeX 2.9/tex/generic/babel/babel.sty" 1461657393 13862 2379954ebbdf3db89eccb32499d2da36 ""
   "C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/etexcmds.sty" 1465497378 7612 729a8cc22a1ee0029997c7f74717ae05 ""
@@ -132,12 +134,12 @@
   "C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/was/upgreek.sty" 1081504700 5928 9054e31be15d93f1e6bd28cca2b6643f ""
   "aufbau.jpeg" 1498427379 128496 65597f7ce75140910053e7855f2142d9 ""
-  "comptonstreu.aux" 1498508607 3924 9d4db0bb96816dc26b3509ccd0b6f165 ""
+  "comptonstreu.aux" 1498513430 4534 25b5b2446106bfb130ce656b1a160897 ""
   "comptonstreu.bbl" 0 -1 0 "bibtex comptonstreu"
-  "comptonstreu.tex" 1498508605 16607 37e52b503e29c4877f8f0b5c96d62b0e ""
+  "comptonstreu.tex" 1498513427 19138 65564c41178acd85804fc7e412c40543 ""
   "comptstreu_schema.jpg" 1498465998 21749 4a028133a2ddc5b1c39b6ead1ca859ab ""
   (generated)
-  "comptonstreu.aux"
-  "comptonstreu.log"
   "comptonstreu.pdf"
+  "comptonstreu.log"
   "comptonstreuNotes.bib"
+  "comptonstreu.aux"
