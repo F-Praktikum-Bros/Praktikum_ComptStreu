@@ -2,16 +2,22 @@
 nofootinbib,superscriptaddress]{revtex4-1}
 
 
-\usepackage{graphics}       % standard graphics specifications
-\usepackage{graphicx}       % alternative graphics specifications
-\usepackage{longtable}      % helps with long table options
-\usepackage{url}            % for on-line citations
-\usepackage{bm}             % special 'bold-math' package
-\usepackage[ngerman]{babel} % deutsche Siblentrennung
-\usepackage[utf8]{inputenc} % Umlaute
-\usepackage{upgreek}        % aufrechte (nicht-kursive) griech. Buchstaben
+\usepackage{graphics}           % standard graphics specifications
+\usepackage{graphicx}           % alternative graphics specifications
+\usepackage{longtable}          % helps with long table options
+\usepackage{url}                % for on-line citations
+\usepackage{bm}                 % special 'bold-math' package
+\usepackage[ngerman]{babel}     % deutsche Siblentrennung
+\usepackage[utf8]{inputenc}     % Umlaute
+\usepackage{upgreek}            % aufrechte (nicht-kursive) griech. Buchstaben
+\usepackage[ngerman]{cleveref}  % abgekürzte Referenzen
+\usepackage{subfig}          % Bilderformatierung mehrere nebeneinander und so
 
 \def\andname{\hspace*{-0.5em},} % definiert die Trennung zwischen 2 Autoren neu
+
+\makeatletter
+\setlength{\@fptop}{0pt}
+\makeatother
 
 % Titelseite
 \begin{document}
@@ -98,14 +104,7 @@ Photomultiplier und löst durch den Photoeffekt ein Elektron, welches im weitere
 Verlauf weitere Elektronen aus den Dynoden herausschlägt (die sogenannten
 Sekundärelektronen). Somit entsteht eine Spannung, welche wir als proportional zur
 Energie der am Szintillator eintreffenden Photonen betrachten können. Diese
-Spannung wird durch zwei OP Amplifier verstärkt und gelangt nun in den Multi Channel
-Analyzer, welcher dafür sorgt, dass die eintreffenden Impulse mit verschiedener
-Amplitude entsprechend diese einem Kanal zugeordnet werden. Diese Kanäle können
-wir am PC auslesen und in einem Histogramm darstellen, wir sehen also ein Diagramm,
-dass uns die Counts in den jeweiligen Kanälen zeigt. Daraus lässt sich mithilfe einer Kalibrationskurve,
-die den Kanälen eine Energie zuordnet, das Energiespektrum bestimmen.
-
-Zunächst ist es aus gesundheitlichen Erwägungen erforderlich, die Äquivalentdosis zu bestimmen, der man
+Spannung wird durch zwei OP Amplifier verstärkt und gelangt nun in den Multi
 
 \begin{table}[h]
 \begin{ruledtabular}
@@ -120,6 +119,14 @@ Zunächst ist es aus gesundheitlichen Erwägungen erforderlich, die Äquivalentd
 \caption{\label{tab:materialien} Daten der Photonenquellen ermittelt am 01.11.1996
 mit einem Fehler von 4\%.}
 \end{table}
+
+Channel Analyzer, welcher dafür sorgt, dass die eintreffenden Impulse mit verschiedener
+Amplitude entsprechend diese einem Kanal zugeordnet werden. Diese Kanäle können
+wir am PC auslesen und in einem Histogramm darstellen, wir sehen also ein Diagramm,
+dass uns die Counts in den jeweiligen Kanälen zeigt. Daraus lässt sich mithilfe einer Kalibrationskurve,
+die den Kanälen eine Energie zuordnet, das Energiespektrum bestimmen.
+
+Zunächst ist es aus gesundheitlichen Erwägungen erforderlich, die Äquivalentdosis zu bestimmen, der man
 
 \noindent während des Versuches ausgesetzt ist. Hierfür wird eine Experimentierdauer von 12 Stunden und eine
 vollständige Absorption der Probenstrahlung angenommen. Die Äquivalentdosis H ist im Falle von Photonen
@@ -140,24 +147,24 @@ Dabei bezeichnet $A_0$ die Aktivität der Quelle am 01.11.1996 (s. Tabelle 1). D
 der Dosisbeiträge der drei Proben gelangt man unter Annahme einer bestrahlten Masse von $m\approx 75$kg zu einer maximalen Äquivalentdosis von 17,5 $\upmu\text{Sv}$ (s. Anhang A1-A2).
 Das entspricht einem Zuwachs der durchschnittlichen jährlichen Strahlungsbelastung ($\approx 2,1$ mSv \cite{jdosis}) um 0,8\%.
 
-Da das Signal des Szintillators einen Vor- und Hauptverstärker durchläuft, ist die Messung einer Totzeit unterworfen. Das Messprogramm (MAESTRO)
+\vspace{1em}\noindent Da das Signal des Szintillators einen Vor- und Hauptverstärker durchläuft, ist die Messung einer Totzeit unterworfen. Das Messprogramm (MAESTRO)
 quantifiziert diese Totzeit bereits und liefert Werte in der Größenordnung von 3 $\upmu\text{s}$ bis 17 $\upmu\text{s}$. Eine grafische, softwareunabhängige Abschätzung mit
 dem Oszilloskop ergibt ähnliche Totzeiten in der Größenordnung von 8 $\upmu\text{s}$. Die Zeit, die der Detektor zur Messung eines Ereignisses benötigt, beträgt mit 6 ms drei
 Größenordnungen mehr als die Totzeit, womit diese vernachlässigt werden kann. %HIER VLLT NOCH VGL WIE VIELE SIGNALE ABSOLUT VERLOREN GEGANGEN SIND
 
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Daten und Analyse}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id facilisis ligula,
-a ultrices nibh. Nullam suscipit tellus nec mauris fermentum, ornare luctus neque
-tincidunt. Aenean commodo tincidunt varius. Phasellus faucibus metus non erat
-consectetur bibendum. Duis et luctus risus, at egestas justo. Nunc eleifend lacus
-ac laoreet scelerisque. Aenean cursus dignissim magna in ultrices. In eget nisl
-quis nisi. Tabelle \ref{tab:table1}:
+\vspace{1em}\noindent Die ohne Streutarget aufgenommen Spektren der Gammastrahler sind in \cref{fig:BaK}: dargestellt. Da das Messprogramm die Ereignisse verschiedenen Kanälen (2048 Kanäle)
+zuordnet, werden diese mithilfe einer Kalibrationskurve K(E) in Energien umgesetzt. Dazu wurden die charakteristischen Peaks der Spektren mit MATLAB einem Gauß-Fit unterzogen, der
+die genauen Peakpositionen einschließlich deren Unsicherheit liefert.
 
-
+\begin{figure*}[t!]
+  \centering
+  \subfloat[Bezeichnung der linken Grafik]{\includegraphics[width=0.32\textwidth]{../Messung/BaK.jpg }} % \caption{\label{fig:BaK} \textsuperscript{133}Ba}
+  \subfloat[Bezeichnung der linken Grafik]{\includegraphics[width=0.32\textwidth]{../Messung/BaK.jpg }} % \caption{\label{fig:NaK} \textsuperscript{22}Na}
+  \subfloat[Bezeichnung der linken Grafik]{\includegraphics[width=0.32\textwidth]{../Messung/BaK.jpg }} % \caption{\label{fig:CsK} \textsuperscript{137}Cs}
+\end{figure*}
 
 
 

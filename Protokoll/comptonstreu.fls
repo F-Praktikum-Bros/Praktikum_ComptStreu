@@ -71,6 +71,16 @@ INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/omsenc.dfu
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/omsenc.dfu
 INPUT C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/was/upgreek.sty
 INPUT C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/was/upgreek.sty
+INPUT C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/cleveref/cleveref.sty
+INPUT C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/cleveref/cleveref.sty
+INPUT C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/subfig/subfig.sty
+INPUT C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/subfig/subfig.sty
+INPUT C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/caption/caption.sty
+INPUT C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/caption/caption.sty
+INPUT C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/caption/caption3.sty
+INPUT C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/caption/caption3.sty
+INPUT C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/caption/ltcaption.sty
+INPUT C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/caption/ltcaption.sty
 INPUT comptonstreu.aux
 INPUT comptonstreu.aux
 OUTPUT comptonstreu.aux
@@ -164,6 +174,15 @@ INPUT ./aufbau.jpeg
 INPUT ./aufbau.jpeg
 INPUT ./aufbau.jpeg
 INPUT C:/Users/MP/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
+INPUT ../Messung/BaK.jpg
+INPUT ../Messung/BaK.jpg
+INPUT ../Messung/BaK.jpg
+INPUT ../Messung/BaK.jpg
+INPUT ../Messung/BaK.jpg
+INPUT ../Messung/BaK.jpg
+INPUT ../Messung/BaK.jpg
+INPUT ../Messung/BaK.jpg
+INPUT ../Messung/BaK.jpg
 INPUT ../Messung/OsziVerstaerkerkurve/TEK00009.jpg
 INPUT ../Messung/OsziVerstaerkerkurve/TEK00009.jpg
 INPUT ../Messung/OsziVerstaerkerkurve/TEK00009.jpg
