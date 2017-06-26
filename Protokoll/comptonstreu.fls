@@ -71,6 +71,8 @@ INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/omsenc.dfu
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/omsenc.dfu
 INPUT C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/was/upgreek.sty
 INPUT C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/was/upgreek.sty
+INPUT C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/cleveref/cleveref.sty
+INPUT C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/cleveref/cleveref.sty
 INPUT comptonstreu.aux
 INPUT comptonstreu.aux
 OUTPUT comptonstreu.aux
@@ -164,11 +166,56 @@ INPUT ./aufbau.jpeg
 INPUT ./aufbau.jpeg
 INPUT ./aufbau.jpeg
 INPUT C:/Users/MP/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
+INPUT ../Messung/eichkurveEvonK.jpg
+INPUT ../Messung/eichkurveEvonK.jpg
+INPUT ../Messung/eichkurveEvonK.jpg
+INPUT ../Messung/eichkurveEvonK.jpg
+INPUT ../Messung/eichkurveEvonK.jpg
+INPUT ../Messung/relAufl.jpg
+INPUT ../Messung/relAufl.jpg
+INPUT ../Messung/relAufl.jpg
+INPUT ../Messung/relAufl.jpg
+INPUT ../Messung/relAufl.jpg
+INPUT ../Messung/Csuk.jpg
+INPUT ../Messung/Csuk.jpg
+INPUT ../Messung/Csuk.jpg
+INPUT ../Messung/Csuk.jpg
+INPUT ../Messung/Csuk.jpg
+INPUT ../Messung/Csk.jpg
+INPUT ../Messung/Csk.jpg
+INPUT ../Messung/Csk.jpg
+INPUT ../Messung/Csk.jpg
+INPUT ../Messung/Csk.jpg
 INPUT ../Messung/OsziVerstaerkerkurve/TEK00009.jpg
 INPUT ../Messung/OsziVerstaerkerkurve/TEK00009.jpg
 INPUT ../Messung/OsziVerstaerkerkurve/TEK00009.jpg
 INPUT ../Messung/OsziVerstaerkerkurve/TEK00009.jpg
 INPUT ../Messung/OsziVerstaerkerkurve/TEK00009.jpg
+INPUT ../Messung/deltaspektrum.jpg
+INPUT ../Messung/deltaspektrum.jpg
+INPUT ../Messung/deltaspektrum.jpg
+INPUT ../Messung/deltaspektrum.jpg
+INPUT ../Messung/deltaspektrum.jpg
+INPUT ../Messung/BaK.jpg
+INPUT ../Messung/BaK.jpg
+INPUT ../Messung/BaK.jpg
+INPUT ../Messung/BaK.jpg
+INPUT ../Messung/BaK.jpg
+INPUT ../Messung/NaK.jpg
+INPUT ../Messung/NaK.jpg
+INPUT ../Messung/NaK.jpg
+INPUT ../Messung/NaK.jpg
+INPUT ../Messung/NaK.jpg
+INPUT ../Messung/CsK.jpg
+INPUT ../Messung/CsK.jpg
+INPUT ../Messung/CsK.jpg
+INPUT ../Messung/CsK.jpg
+INPUT ../Messung/CsK.jpg
+INPUT ../Messung/Rauschen.jpg
+INPUT ../Messung/Rauschen.jpg
+INPUT ../Messung/Rauschen.jpg
+INPUT ../Messung/Rauschen.jpg
+INPUT ../Messung/Rauschen.jpg
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmtt10.tfm
 INPUT comptonstreu.aux
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -205,9 +252,13 @@ INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eurm10.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eurm10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb

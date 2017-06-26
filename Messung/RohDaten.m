@@ -149,9 +149,10 @@ sigCsr  = fCsr.c1;  usigCsr   = 0.5*(ci_fCsr(2,3)-ci_fCsr(1,3));
 sigNar  = fNar.c1;  usigNar   = 0.5*(ci_fNar(2,3)-ci_fNar(1,3));
 
 sigVec=[sigBar sigCsr sigNar]; usigVec= [usigBar usigCsr usigNar];
+sigVec=sigVec;
+usigVec=usigVec;
 hVec=2.35*E(sigVec); uhVec=2.35*E(usigVec);
 EVec=E([bBar bCsr bNar]);
-
 A=hVec./EVec;
 uEVec=uE([bBar bCsr bNar],[errbBar errbCsr errbNar]);
 uA=sqrt( (uhVec./EVec).^2 + (uEVec.*hVec./(EVec).^2).^2 );
@@ -170,29 +171,45 @@ opts.Weights = weights;
 
 figure(7)
 errorbar(EVec,A,uA,'.','MarkerEdgeColor','black'); hold on
+xlim([0.1,0.9]);
 plot(fitA); hold off
-xlabel('Energie E [MeV]'), ylabel('rel. Aufloesung')
+xlabel('Energie E [MeV]'), ylabel('relative Auflösung A')
+legend('Messpunkte \sigma(E)','Auflösungsfunktion A(E)=a\sqrt(E)+b','Interpreter','latex')
 saveas(gcf,'relAufl.jpg')
 
 disp('relative Auflösungen Ba Cs Na');
 relA=@(E) (fitA.a)./sqrt(E)+fitA.b;
-relA(EVec)
 
 % Cs unkorrigiert Spektrum als Funktion der Energie (nicht mehr Kanal)
 EVecCs=E(1:length(Cs));
 figure(12)
 errorbar(EVecCs,Cs,errCs,'.','MarkerEdgeColor','black')
-xlim([0 EVecCs(end)+0.1]), xlabel('Energie E [MeV]'), ylabel('Anzahl Ereignisse pro Sekunde [1/s]')
+xlim([0 EVecCs(end)+0.1]), xlabel('Energie E [MeV]'), ylabel('Counts pro Sekunde [1/s]')
 saveas(gcf,'CsunkorrigiertE.jpg')
 
 % Plot Cs mit und ohne Target (korrigiert)
 figure(13)
 errorbar(E(1:length(Csc)),Csc,errCsc,'.','MarkerEdgeColor','black')
 hold on
-errorbar(E(1:length(CsTc)),CsTc,errCsTc,'x','MarkerEdgeColor','black')
-xlim([-.05 E(length(Csc))+.05])
-xlabel('Energie E [MeV]'), ylabel('Anzahl Ereignisse pro Sekunde [1/s]')
+%errorbar(E(1:length(CsTc)),CsTc,errCsTc,'x','MarkerEdgeColor','black')
+xlim([0 1.5])
+ylim([0 0.26])
+set(gca,'XTick',[0:0.1:1.5]);
+xlabel('Energie E [MeV]'), ylabel('Counts pro Sekunde [1/s]')
 hold off
+legend('Cs korrigiert','Location','northwest')
+saveas(gcf,'Csk.jpg')
+
+
+%Plot Cs ohne Target (unkorrigiert)
+figure(26)
+errorbar(E(1:length(Cs)),Cs,errCs,'.','MarkerEdgeColor','black')
+xlim([0 1.5])
+ylim([0 0.7])
+set(gca,'XTick',[0:0.1:1.5]);
+xlabel('Energie E [MeV]'), ylabel('Counts pro Sekunde [1/s]')
+legend('Cs unkorrigiert','Location','northwest')
+saveas(gcf,'Csuk.jpg')
 
 % Plot Cs mit und ohne Target im Bereich des Peaks
 Csp=Csc (305:680).'; errCsp=errCsc (305:680).'; CsTp=CsTc (305:680).'; errCsTp=errCsTc (305:680).';
@@ -226,7 +243,7 @@ plot(fitCsTp)
 hold off
 xlabel('Energie [MeV]'), ylabel('Anzahl Ereignisse pro Sekunde [1/s]')
 xlim([E(328) E(697)])
-legend('Cs ohne Target + Fit','Cs mit Target + Fit','Location','northwest')
+legend('Cs + Fit','CsT + Fit','Location','northwest')
 saveas(gcf,'FitsComptonCs.jpg')
 
 ci_fitCsp=confint(fitCsp,0.68);
